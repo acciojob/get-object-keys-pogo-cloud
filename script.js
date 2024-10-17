@@ -1,6 +1,6 @@
 const student={
-	name:"ABC";
+	name:"ABC"
 }
 student.__proto__.getKeys=function(){
-	return Object.keys(this);
+	return Object.keys(this)
 }
